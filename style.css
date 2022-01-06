@@ -10,11 +10,6 @@ h1{
 .orange-color{
     color: orange;
 }
-section{
-    display: flex;
-    margin-bottom: 75px;
-    padding: 75px;
-}
 .class-width{
     width: 50%;
     padding-left: 2%;
@@ -23,6 +18,7 @@ section{
 .class-width img{
     width: 80%;
     padding-left: 20px;
+    
 }
 .link-button{
     text-decoration: none;
@@ -33,10 +29,6 @@ section{
     font-weight: 700;
     
 }
-.top{
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
-}
 p{
     font-size: 18px;
     text-align: justify;
@@ -45,8 +37,6 @@ p{
     font-style: normal;
     
 }
-.mid{
-    background-image: url(images/dream-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
+.felxible-container{
+    display: flex;
 }
