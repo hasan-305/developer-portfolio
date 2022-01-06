@@ -7,17 +7,20 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .orange-color{
     color: orange;
 }
 .class-width{
     width: 50%;
     padding-left: 2%;
-
-}
+    ;}
 .class-width img{
     width: 80%;
     padding-left: 10px;
+    
     
 }
 .link-button{
@@ -44,3 +47,30 @@ p{
     
     
 }
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-item{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px grey;
+    padding-left: 20px;
+    text-align: justify;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+#full-stack{
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+    border-left: 5px solid;
+
+}
+#baby-web{
+    border-image: linear-gradient(navy,cyan);
+    border-image-slice: 1;
+    border-left: 5px solid;
+}
+
