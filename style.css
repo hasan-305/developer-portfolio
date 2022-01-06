@@ -12,10 +12,13 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 75px;
+    padding: 75px;
 }
 .class-width{
     width: 50%;
     padding-left: 2%;
+
 }
 .class-width img{
     width: 80%;
@@ -35,5 +38,15 @@ section{
     background-repeat: no-repeat;
 }
 p{
-    font-size: 15.5px;
+    font-size: 18px;
+    text-align: justify;
+    font-weight: lighter;
+    color: grey;
+    font-style: normal;
+    
+}
+.mid{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
